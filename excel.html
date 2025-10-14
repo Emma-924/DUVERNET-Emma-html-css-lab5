@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel Functions - JavaScript Lab</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="excel.html">Excel</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Excel Functions Simulator</h1>
+
+    <form id="numbersForm" name="numbersForm">
+      <label for="numbers"><strong>Enter your numbers separated by spaces:</strong></label><br>
+      <input type="text" id="numbers" name="numbers" placeholder="Example: 23 67 98 90 56" required>
+      <br><br>
+
+      <p><strong>Choose one function:</strong></p>
+
+      <input type="radio" id="sum" name="excel" value="sum" checked>
+      <label for="sum">AutoSum</label><br>
+
+      <input type="radio" id="avg" name="excel" value="avg">
+      <label for="avg">Average</label><br>
+
+      <input type="radio" id="max" name="excel" value="max">
+      <label for="max">Max</label><br>
+
+      <input type="radio" id="min" name="excel" value="min">
+      <label for="min">Min</label><br><br>
+
+      <button type="button" id="calculateBtn">Calculate</button>
+      <button type="reset">Clear</button>
+    </form>
+
+    <br>
+
+    <div id="resultOutput"></div>
+  </main>
+
+  <footer>
+    <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment - DUVERNET Emma</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
